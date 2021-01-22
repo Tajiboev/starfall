@@ -1,0 +1,5 @@
+{
+    "scss.lint.duplicateProperties": "warning",
+    "prettier.configPath": ".prettierrc",
+    "prettier.packageManager": "yarn"
+}
