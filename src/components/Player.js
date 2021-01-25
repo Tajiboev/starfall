@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Player = () => {
+const Player = ({ url, type }) => {
     return (
-        <div className="player">
+        <div className="player" style={{ textAlign: 'center' }}>
+            <h2 style={{ color: 'white' }}>{url}</h2>
             <audio controls>
-                <source src="starfall.mp3" type="audio/mpeg" />
+                <source src={url} type={type} />
                 Your browser does not support the audio element.
             </audio>
         </div>
